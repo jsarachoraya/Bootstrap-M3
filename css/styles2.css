@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@900&display=swap');
+
+
+
+body {
+
+    border: 2px solid lightgray;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+
+
+
+
+img {
+    height: 120%;
+    width: 110%;
+    margin-left: 70px;
+    margin-top: -110px;
+    margin-bottom: 50px;
+    
+}
+
+
+.card {
+
+    margin: auto;
+    padding-top: 160px;
+    border: none;
+    
+
+}
+
+
+
+.card-body {
+
+    margin-top: -50px;
+    margin-left: 140px;
+    margin-right: 110px;
+    
+
+}
+
+
+
+.card-text {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.07rem;
+    color: #04146c;
+
+}
+
+
+
+.card-title {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 5rem;
+    color: #04146c;
+
+}
+
+
+.btn-1 {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1rem;
+    border: none;
+    width: 180px;
+    height: 40px;
+    background-color: #04146c;
+    color: white;
+    margin-top: 30px;
+
+}
+
+
+
+.btn-2 {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1rem;
+    border: none;
+    width: 180px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #04146c;
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+        
+    body {
+        
+        width: 100%;
+        
+    }
+
+
+
+    .img-fluid {
+
+        margin-left: 50px;
+        margin-top: -120px;
+        padding-right: 100px;
+        padding-bottom: -130px;
+        margin-right: 50px;
+
+
+    }
+
+        
+
+    .card-body {
+
+        margin-left: 50px;
+        margin-right: 70px;
+        padding-left: 30px;
+        padding-right: -30px;
+
+
+    }
+
+
+
+    .card-title {
+
+        margin-left: 50px;
+
+    }
+
+
+
+    .card-text {
+
+        margin-left: -30px;
+        
+
+    }
+
+
+}
